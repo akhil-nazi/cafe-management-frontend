@@ -1,0 +1,57 @@
+<body>
+  <mat-card>
+    <b><span>Dashboard Details</span></b>
+  </mat-card>
+
+  <br>
+  <div class="row">
+    <div class="column">
+      <div class="card">
+        <div class="container">
+          <h1 class="title">
+                Total Category:
+          </h1>
+          <h2 class="title">
+              {{data?.category}}
+          </h2>
+          <!-- [routerLink] = ['/cafe/category'] -->
+          <p><button class="button">View </button></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="card">
+        <div class="container">
+          <h1 class="title">
+                Total Product:
+          </h1>
+          <h2 class="title">
+              {{data?.product}}
+          </h2>
+          <!-- [routerLink] = ['/cafe/product'] -->
+          <p><button class="button">View </button></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="card">
+        <div class="container">
+          <h1 class="title">
+                Total Bill:
+          </h1>
+          <h2 class="title">
+              {{data?.bill}}
+          </h2>
+          <!-- [routerLink] = ['/cafe/bill'] -->
+          <p><button class="button">View </button></p>
+        </div>
+      </div>
+    </div>
+
+
+
+
+  </div>
+</body>
